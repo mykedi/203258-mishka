@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Мишка</title>
+  </head>
+  <body>
+
+    <main class="container">
+
+      <header class="page-header">
+        <div class="page-header__logo">
+          <img src="img/logo.png">
+        </div>
+        <nav class="main-nav main-nav--closed main-nav--nojs">
+          <button class="main-nav__toggle">Меню</button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__items">
+              <li class="main-nav__item"><a href="index.html">Главная</a></li>
+              <li class="main-nav__item main-nav__item--active"><a>Каталог<a></li>
+              <li class="main-nav__item"><a href="form.html">Вязание на заказ</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- End HEADER -->
+      <section class="catalog page">
+          <h1 class="page__header">Каталог товаров</h1>
+      </section>
+      <section class="products">
+        <div class="products__wrapper">
+          <a href="catalog-zaika.html">
+            <img src="img/zaika.jpg" width="" height="" alt="Зайчик-попрыгайчик" />
+          </a>
+          <div class="products__description">
+            <h2 class="products__item">Зайчик-попрыгайчик</h2>
+            <p>Рост 30 см, вес 200 г</p>
+          </div>
+          <div class="products__price">
+            <p><b>1200 руб.</b></p>
+            <a href="catalog-zaika.html">
+              <span class="icon-buy"></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="products__wrapper">
+          <a href="catalog-zaika.html">
+            <img src="img/bin.jpg" width="" height="" alt="Корзина для белья" />
+          </a>
+          <div class="products__description">
+            <h2 class="products__item">Корзина для белья</h2>
+            <p>Диаметр 15 см, высота 10 см</p>
+          </div>
+          <div class="products__price">
+            <p><b>690 руб.</b></p>
+            <a href="catalog-zaika.html">
+              <span class="icon-buy"></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="products__wrapper">
+          <a href="catalog-zaika.html">
+            <img src="img/big-big.jpg" width="" height="" alt="Большая корзина для игрушек" />
+          </a>
+          <div class="products__description">
+            <h2 class="products__item">Большая корзина для игрушек</h2>
+            <p>Диаметр 30 см, высота 30 см</p>
+          </div>
+          <div class="products__price">
+            <p><b>1500 руб.</b></p>
+            <a href="catalog-zaika.html">
+              <span class="icon-buy"></span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- End PRODUCTS -->
+      <section class="production">
+        <div class="production__wrapper">
+          <div class="production_header">
+            <img src="img/camera.svg" width="" height="">
+            <h2>Процесс производства</h2>
+          </div>
+          <video src="" poster="img/video-prev.jpg" width="" height="" preload="metadata" controls="">
+            <source src="video/prosses.mp4" type="video/mp4">
+            <source src="video/prosses.ogv" type="video/ogg">
+            <source src="video/prosses.webm" type="video/webm">
+          </video>
+          <p>По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+          <a href="#">Сделать заказ</a>
+        </div>
+      </section>
+
+      <footer class="page-footer">
+        <div class="page-footer__wrapper">
+          <section class="page-footer__social">
+            <a class="page-footer__btn" href="#">Instagram<span class="icon-instagram"></span></a>
+            <a class="page-footer__btn" href="#"><span class="icon-facebook"></span>Facebook</a>
+            <a class="page-footer__btn" href="#">Twitter<span class="icon-twitter"></span></a>
+          </section>
+          <section class="copyright">
+            <p>Разработано</p>
+            <a class="copyright__logo_academy" href="https://htmlacademy.ru"></a>
+          </section>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
